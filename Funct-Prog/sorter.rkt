@@ -1,4 +1,5 @@
 #lang racket
+;; use the function by doing > (sort '([numbers]))
 (define sorter
     (lambda (x)
       (cond ((null? x) '())
